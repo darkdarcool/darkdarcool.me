@@ -1,0 +1,5 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+} /* this is important because nuxt it stupid and likes whitespace */

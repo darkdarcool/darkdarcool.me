@@ -1,0 +1,70 @@
+.head_wrapper {
+  position: relative;
+  top: 50vh;
+  -webkit-transform: translatey(-50%);
+  transform: translatey(-50%);
+  margin-left: 10vw;
+  max-width: 80vw;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+}
+
+.header {
+  position: relative;
+  top: 25vh;
+  transform: translatey(-50%);
+  margin-left: 10vw;
+  max-width: 80vw;
+  display: flex;
+}
+
+.name {
+  font-size: 5em;
+  font-family: "Nunito Sans", "Avenir", sans-serif;
+  color: yellow;
+}
+
+.akas {
+  font-size: 1.5em;
+  font-family: "Nunito Sans", "Avenir", sans-serif;
+  color: green;
+  padding-bottom: 5px;
+}
+
+.abouts {
+  font-size: 1em;
+  font-family: "Nunito Sans", "Avenir", sans-serif;
+  color: teal;
+}
+
+.about_text {
+  font-size: 1em;
+  font-family: "Nunito Sans", "Avenir", sans-serif;
+  color: aqua;
+}
+
+.sub_head {
+  font-size: 3em;
+  font-family: "Nunito Sans", "Avenir", sans-serif;
+  color: yellow;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.alias {
+  font-size: 1em;
+  font-family: "Nunito Sans", "Avenir", sans-serif;
+  color: green;
+
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+  transition: 2s;
+}
+
+a:hover {
+  color: teal;
+}
